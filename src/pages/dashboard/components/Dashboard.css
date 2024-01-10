@@ -1,0 +1,82 @@
+.card-infor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chart-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#chartArea {
+    border-radius: 8px;
+    padding: 10px;
+    width: 98%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 20px;
+}
+#circleChart {
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 50px;
+    height: 350px;
+
+}
+
+.chart-items .ant-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.208);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #circleChart {
+        padding: 20px;
+        height: 250px;
+        width: 370px;
+        justify-content: center;
+
+    }
+    #chartArea {
+        padding: 20px;
+        height: 450px;
+        width: 370px;
+        justify-content: center;
+
+    }
+
+    .chart-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*.chart-card {*/
+    /*    flex-direction: column;*/
+    /*    align-items: center;*/
+    /*}*/
+
+    .chart-card .card-infor {
+        margin-top: 10px; /* Add spacing between card info elements */
+    }
+
+    .chart-items .ant-col {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .tablet-layout {
+        flex-direction: column;
+        /*align-items: center;*/
+    }
+
+    .chart-items {
+        margin-bottom: 20px;
+    }
+
+}

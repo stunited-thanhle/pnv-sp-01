@@ -1,0 +1,35 @@
+.ant-modal-content {
+    width: 900px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.ant-btn-primary{
+    background: #5D5FEF;
+}
+.ant-modal-title{
+    color: #5D5FEF;
+}
+/* input{
+    height: 40px;
+    width: 100%;
+} */
+.ant-picker{
+    height: 40px;
+}
+.ant-title{
+    color: #5D5FEF;
+    font-size: 18px;
+}
+.ant-select{
+    height: 40px;
+    width: 100%;
+}
+.option{
+    color: #fff;
+}
+.ant-form-item-required{
+    color: #5D5FEF;
+}
+
+
+  

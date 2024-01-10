@@ -1,0 +1,117 @@
+
+#root{
+  padding: 0px;
+}
+body{
+  margin: 0px;
+}
+.custom-table {
+  /* border: 1px solid #ccc; */
+    border-radius: 8px;
+}
+.custom-table th{
+    text-align: center;
+}
+.custom-table td {
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: left;
+}
+.custom-table .langFrame td {
+  display: flex;
+  flex-direction: row;
+}
+.ant-table-cell.name {
+    font-weight: bold;
+}
+.ant-table-wrapper .ant-table-thead >tr>th{
+    background: #5D5FEF;
+    color: #fff;
+}
+.ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+    width: 0px;
+}
+.custom-table .status-wrapper {
+    display: inline;
+    padding: 3px 8px;
+    border-radius: 2px;
+    width: 20px;
+
+}
+.custom-table .status-active {
+  color: #389e0d;
+  background: #f6ffed;
+  border:1px solid #b7eb8f;
+}
+.custom-table .status-inactive {
+  color: #cf1322;
+  background: #fff1f0;
+  border: 1px solid #ffa39e;
+}
+.text-edit{
+    color: green;
+}
+.text-del{
+    color: red;
+  }
+  .anticon-search{
+    color: #fff;
+  }
+  .ant-table-wrapper .ant-table-column-sorter{
+    color: #fff;
+  }
+  .anticon-filter{
+    color: #fff;
+  }
+  .status-wrapper.true {
+    color: #389e0d;
+    background: #f6ffed;
+    border:1px solid #b7eb8f;
+}
+
+.status-wrapper.false {
+  color: #cf1322;
+  background: #fff1f0;
+  border: 1px solid #ffa39e;
+}
+  /* Responsive cho màn hình tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .custom-table {
+    overflow-x: auto;
+    width: 100%;
+  }
+  .ant-table-content {
+    width: 100%;
+  }
+  .text-edit,
+  .text-del {
+    display: block;
+    text-align: center;
+  }
+  .status-wrapper {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Responsive cho màn hình điện thoại (nếu cần) */
+@media only screen and (max-width: 767px) {
+  .custom-table {
+    overflow-x: auto;
+    width: 100%;
+  }
+  .ant-table-content {
+    width: 100%;
+  }
+  .text-edit,
+  .text-del {
+    display: block;
+    text-align: center;
+  }
+  .status-wrapper {
+    display: block;
+    text-align: center;
+  }
+}
+
+  

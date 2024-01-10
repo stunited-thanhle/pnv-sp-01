@@ -1,0 +1,12 @@
+.site-layout-background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  background-color: "#FFFFFF";
+}
+
+.ant-input-affix-wrapper {
+  max-width: 400px;
+  height: 40px;
+}
